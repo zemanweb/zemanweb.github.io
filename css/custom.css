@@ -1,17 +1,6 @@
-// Colors
-$brand: #2760b6;
-$dark1: #111;
-$dark2: #222;
-$dark3: #333;	
-$dark4: #444;
-$dark5: #555;
-$textlight: #dedede;
-$textdark: #333;
-$white: #fff;
-
 header {
 	background-image:linear-gradient(#333, #111);
-	color: $textlight;
+	color: #dedede;
 	padding: 0 30px 50px 30px;
 }
 
@@ -22,8 +11,8 @@ header .logos {
 }
 
 header .logo {
-	background: $brand;
-	color: $white;
+	background: #2760b6;
+	color: #fff;
 	padding: 15px 30px;
 	font-weight: 900;
 	font-size: 30px;
@@ -37,7 +26,7 @@ header .logo:hover {
 }
 
 header .logo-desc {
-	background: $textlight;
+	background: #dedede;
 	color: #000;
 	font-weight: 500;
 	font-size: 18px;
@@ -49,7 +38,7 @@ header .hi {
 	font-weight: 900;
 	font-size: 48px;
 	text-align: center;
-	color: $white;
+	color: #fff;
 }
 
 header .hi span {
@@ -69,26 +58,26 @@ header .contact {
 }
 
 header .contact a {
-	color: $white;
+	color: #fff;
 	font-size: 18px;
-	border: 2px solid $brand;
+	border: 2px solid #2760b6;
 	display: inline-block;
 	padding: 10px;
 	margin-bottom: 10px;
 }
 
 header .contact a:hover {
-	background: $brand;
-	color: $white;
+	background: #2760b6;
+	color: #fff;
 }
 
 header .contact span {
 	font-size: 14px;
-	color: $dark5;
+	color: #555;
 }
 
 .approach {
-	background: $dark2;
+	background: #222;
 	padding: 50px 20px;
 }
 
@@ -123,7 +112,7 @@ header .contact span {
 .features h1 {
 	font-size: 36px;
 	font-weight: 300;
-	color: $white;
+	color: #fff;
 	text-align: center;
 	padding-bottom: 30px;
 	margin-bottom: 30px;
@@ -193,7 +182,7 @@ footer nav a:hover {
 footer .contact {
 	color: #000;
 	font-size: 18px;
-	border: 2px solid $brand;
+	border: 2px solid #2760b6;
 	display: inline-block;
 	padding: 10px;
 	position: relative;
@@ -202,7 +191,7 @@ footer .contact {
 
 footer .contact:hover {
 	color: #fff;
-	background: $brand;
+	background: #2760b6;
 }
 
 footer .copy {
