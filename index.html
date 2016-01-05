@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Zeman web design</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script>
+          (function(d) {
+            var config = {
+              kitId: 'ymx6ama',
+              scriptTimeout: 3000,
+              async: true
+            },
+            h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+          })(document);
+        </script>
+        <script>
+          WebFontConfig = {
+            google: { families: [ 'Noto+Serif:400,400italic,700,700italic:latin' ] }
+          };
+          (function() {
+            var wf = document.createElement('script');
+            wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+              '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+            wf.type = 'text/javascript';
+            wf.async = 'true';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wf, s);
+          })(); 
+        </script>
+        <link rel="stylesheet" href="css/gridly.min.css">        
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/custom.css">
+        <link rel="icon" href="/favicon-32.png" sizes="32x32">
+    </head>
+    <body>
+        <a name="top"></a>
+        <header>
+            <div class="logos">
+                <a href="#" class="logo">Zeman</a>
+                <span class="logo-desc">Web design</span>
+            </div>
+            <div class="hi">
+                Hello, <span>I am Philip Zeman</span>
+            </div>
+            <div class="hi-desc">
+                I am here to turn your ideas into beautiful, usable websites.
+            </div>
+            <div class="contact">
+                <a href="mailto:philip.zem4n@gmail.com">Contact me</a><br>
+                <span>Let's talk about your project!</span>
+            </div>
+        </header>
+        <section class="approach">
+            <h1>Learn more about my approach</h1>
+            <h2>Find out what makes my websites a desirable addon to your business.</h2>
+        </section>
+        <section class="features">
+            <div>
+                <h1>ADAPTIVE</h1>
+                <h2>Your site will look equally good on all kinds of devices your clients may view it on. That includes desktops, smartphones, tablets, TVs...</h2>
+            </div>
+            <div>
+                <h1>TAILORED</h1>
+                <h2>Your site will reflect your corporate identity. An honorable addon to your business family.</h2>
+            </div>              
+            <div>
+                <h1>MODERN</h1>
+                <h2>Your site will use cutting edge technologies and ideas with emphasis on fast loading times, usability and aesthetics.</h2>
+            </div>          
+        </section>
+        <section class="story">
+            <p>I am a young web designer. Building web sites is my passion and as such I take on every project with great care and personal approach to fit your business's needs and make myself proud of my work.</p>
+            <div class="line"></div>
+            <a href="#">Find more about me and what I do</a>
+        </section>
+        <footer>
+            <div class="menu">
+                <nav>
+                    <a href="#top">&#8593; Go back to the top</a>
+                </nav>
+                <a href="mailto:philip.zem4n@gmail.com" class="contact">Contact me</a>
+            </div>
+            <div class="copy">
+                <div class="logo">
+                    Zeman <span>web design</span>
+                </div>
+                <div class="place">
+                    Sofia, BG
+                </div>
+            </div>
+        </footer>
+        <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/plugins/CSSPlugin.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenLite.min.js"></script>
+        <script>
+          $("header .contact a").hover(function(){
+            TweenLite.to($("header"), 0.4, {backgroundImage:"linear-gradient(#062045, #111)"}); 
+            TweenLite.to($(".contact span"), 0.4, {color:"#fff"}); 
+          }, function() {
+            TweenLite.to($("header"), 0.4, {backgroundImage:"linear-gradient(#333, #111)"}); 
+            TweenLite.to($(".contact span"), 0.4, {color:"#555"}); 
+          });  
+          $(".logos .logo").hover(function(){
+            TweenLite.to($("header"), 0.4, {backgroundImage:"linear-gradient(#062045, #111)"}); 
+          }, function() {
+            TweenLite.to($("header"), 0.4, {backgroundImage:"linear-gradient(#333, #111)"}); 
+          });            
+        </script>
+    </body>
+</html>
