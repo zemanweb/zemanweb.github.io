@@ -1,0 +1,85 @@
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    margin: 0;
+    font: 16px/1 sans-serif, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    background-color:#8395cb;
+    background-image: radial-gradient(white 15%, transparent 16%),
+    radial-gradient(white 15%, transparent 16%);
+    background-size:60px 60px;
+    background-position: 0 0, 30px 30px;    
+    overflow: hidden;
+}
+:focus {
+    outline: 0;
+}
+
+.game {
+    background: url(../img/background_blur.png);
+    width: 545px;
+    height: 750px;
+    margin: 50px auto 0 auto;
+    box-shadow: 0 0 20px #000;
+    position: relative;
+    z-index: 1;
+}
+
+.title {
+    background: url(../img/title.png);
+    width: 545px;
+    height: 125px;
+    z-index: 2;
+}
+
+.daya {
+    background: url(../img/daya.png);
+    width: 80px;
+    height: 102px;
+    background-size: cover;
+    position: absolute;
+    bottom: 50px;
+    left: 235px;
+}
+
+.bag {
+    background: url(../img/bag.png);
+    width: 105px;
+    height: 99px;
+    position: absolute;
+    top: 0px;
+    opacity:0;
+    z-index: -1;
+}
+
+.b1 {left:0px;}
+.b2 {left:90px;}
+.b3 {left:180px;}
+.b4 {left:270px;}
+.b5 {left:360px;}
+.b6 {left:450px;}
+.b7 {left:540px;}
+
+.count {
+    font-family: 'Bangers';
+    font-size: 36px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+}
+
+.test {
+    color: #000;
+    font-size: 0.8rem;
+    background: #fff;
+}
