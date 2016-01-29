@@ -43,7 +43,7 @@ $(window).keydown(function(e) { d[e.which] = true; });
 $(window).keyup(function(e) { d[e.which] = false; });
 window.setInterval(function(){
 var randomBag = Math.floor((Math.random() * 6) + 1);
-  TweenLite.to($(".b" + randomBag), 1.5, {top:"650px", ease:Power0.easeNone}); 
+  TweenLite.to($(".b" + randomBag), 1.5, {top:"480px", ease:Power0.easeNone}); 
   TweenLite.to($(".b" + randomBag), 0.3, {opacity:"1"}); 
   TweenLite.to($(".b" + randomBag), 0, {opacity:"0", delay:"3"}); 
 }, 300);
@@ -88,6 +88,7 @@ function findIntersectors() {
 }
 var asd = findIntersectors();
 $(".test").html(asd);
+var bagpoz = $("bag").css('left');
 }, 20);
         </script>
     </body>
