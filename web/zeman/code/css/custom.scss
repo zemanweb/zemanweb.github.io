@@ -1,0 +1,228 @@
+// Colors
+$brand: #2760b6;
+$dark1: #111;
+$dark2: #222;
+$dark3: #333;	
+$dark4: #444;
+$dark5: #555;
+$textlight: #dedede;
+$textdark: #333;
+$white: #fff;
+
+header {
+	background-image:linear-gradient(#333, #111);
+	color: $textlight;
+	padding: 0 30px 50px 30px;
+}
+
+header .logos {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 90px;
+}
+
+header .logo {
+	background: $brand;
+	color: $white;
+	padding: 15px 30px;
+	font-weight: 900;
+	font-size: 30px;
+	height: 60px;
+	display: inline-block;
+}
+
+header .logo:hover {
+	color: #000;
+	background: #fff;
+}
+
+header .logo-desc {
+	background: $textlight;
+	color: #000;
+	font-weight: 500;
+	font-size: 18px;
+	padding: 22px 30px;
+	height: 60px;
+}
+
+header .hi {
+	font-weight: 900;
+	font-size: 48px;
+	text-align: center;
+	color: $white;
+}
+
+header .hi span {
+	font-weight: 400;
+}
+
+header .hi-desc {
+	font-family: 'Noto Serif';
+	font-size: 24px;
+	text-align: center;
+	margin: 20px 0 60px 0;
+}
+
+header .contact {
+	text-align: center;
+	font-weight: 500;
+}
+
+header .contact a {
+	color: $white;
+	font-size: 18px;
+	border: 2px solid $brand;
+	display: inline-block;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+header .contact a:hover {
+	background: $brand;
+	color: $white;
+}
+
+header .contact span {
+	font-size: 14px;
+	color: $dark5;
+}
+
+.approach {
+	background: $dark2;
+	padding: 50px 20px;
+}
+
+.approach h1 {
+	font-weight: 300;
+	font-size: 36px;
+	color: #bebebe;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.approach h2 {
+	font-family: 'Noto Serif', serif;
+	font-size: 18px;
+	font-weight: 400;
+	text-align: center;
+	color: #bebebe;
+	margin-top: 15px;
+}
+
+.features {
+	display: flex;
+	justify-content: space-between;
+	background: #333;
+	padding: 70px 80px;
+}
+
+.features div {
+	width: 30%;
+}
+
+.features h1 {
+	font-size: 36px;
+	font-weight: 300;
+	color: $white;
+	text-align: center;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #555;
+}
+
+.features h2 {
+	color: #dedede;
+	font-family: 'Noto Serif', serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.story {
+	padding: 70px 50px;
+	background: #dedede;
+}
+
+.story p {
+	font-family: 'Noto Serif', serif;
+	font-size: 24px;
+	line-height: 1.35;
+	width: 80%;
+}
+
+.story .line {
+	margin: 40px 0 25px 0;
+	width: 17%;
+	height: 1px;
+	background: #555;
+}
+
+.story a {
+	font-size: 24px;
+	text-decoration: underline;
+	color: #000;
+}
+
+.story a:hover {
+	text-decoration: none;
+	color: #555;
+}
+
+footer {
+	background: #fff;
+	padding: 50px;
+}
+
+footer .menu {
+	display: flex;
+	justify-content: space-between;
+}
+
+footer nav a {
+	display: inline-block;
+	margin-right: 40px;
+	font-size: 24px;
+	color: #555;
+}
+
+footer nav a:hover {
+	color: #000;
+}
+
+footer .contact {
+	color: #000;
+	font-size: 18px;
+	border: 2px solid $brand;
+	display: inline-block;
+	padding: 10px;
+	position: relative;
+	top: -10px;
+}
+
+footer .contact:hover {
+	color: #fff;
+	background: $brand;
+}
+
+footer .copy {
+	border-top: 1px solid #dedede;
+	margin:40px 0 0 0;
+	padding-top: 40px;
+	display: flex;
+	justify-content: space-between;
+	color: #555;
+	font-size: 30px;
+}
+
+footer .logo {
+	font-weight: 800;
+}
+
+footer .logo span {
+	font-weight: 300;
+}
+
+footer .place {
+	font-weight: 400;
+}
